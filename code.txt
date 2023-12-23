@@ -1,0 +1,26 @@
+ldr r0, [r1], r2
+ldr r0, [r1], r2, lsl #4
+ldr r0, [r1], -r2
+ldr r0, [r1, r2]
+ldr r0, [r1, r2, lsl #4]
+ldr r0, [r1, -r2]
+ldr r0, [r1, r2]!
+ldr r0, [r1]
+ldr r0, [r1], #4
+ldr r0, [r1], #-4
+ldr r0, [r1, #4]
+ldr r0, [r1, #-4]
+ldr r0, [r1, #4]!
+str r0, [r1], r2
+str r0, [r1], r2, lsl #4
+str r0, [r1], -r2
+str r0, [r1, r2]
+str r0, [r1, r2, lsl #4]
+str r0, [r1, -r2]
+str r0, [r1, r2]!
+str r0, [r1]
+str r0, [r1], #4
+str r0, [r1], #-4
+str r0, [r1, #4]
+str r0, [r1, #-4]
+str r0, [r1, #4]!
